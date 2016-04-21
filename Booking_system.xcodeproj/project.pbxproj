@@ -1,0 +1,656 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		53933F16CE24B59203381BC7 /* libPods-Booking_system.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 76AA6162D43E83DE272B92CD /* libPods-Booking_system.a */; };
+		E79CF0341CC8972B00945A11 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E79CF0321CC8972B00945A11 /* LoginVC.swift */; };
+		E79CF0351CC8972B00945A11 /* LoginVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = E79CF0331CC8972B00945A11 /* LoginVC.xib */; };
+		E79CF0381CC8973A00945A11 /* ProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E79CF0361CC8973A00945A11 /* ProfileVC.swift */; };
+		E79CF0391CC8973A00945A11 /* ProfileVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = E79CF0371CC8973A00945A11 /* ProfileVC.xib */; };
+		E79CF03C1CC8AF6D00945A11 /* StaticClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = E79CF03B1CC8AF6D00945A11 /* StaticClass.swift */; };
+		E7CFD1931CC7BB3300F775DB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E7CFD1911CC7BB3300F775DB /* Main.storyboard */; };
+		E7CFD1951CC7BB3300F775DB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E7CFD1941CC7BB3300F775DB /* Assets.xcassets */; };
+		E7CFD1981CC7BB3300F775DB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E7CFD1961CC7BB3300F775DB /* LaunchScreen.storyboard */; };
+		E7CFD1A71CC7BBF300F775DB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7CFD1A11CC7BBF300F775DB /* AppDelegate.swift */; };
+		E7CFD1A81CC7BBF300F775DB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7CFD1A31CC7BBF300F775DB /* ViewController.swift */; };
+		E7CFD1AB1CC7BD0700F775DB /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7CFD1A91CC7BD0700F775DB /* HomeVC.swift */; };
+		E7CFD1AC1CC7BD0700F775DB /* HomeVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = E7CFD1AA1CC7BD0700F775DB /* HomeVC.xib */; };
+		E7CFD2331CC7C10300F775DB /* AFDownloadRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = E7CFD1FE1CC7C10300F775DB /* AFDownloadRequestOperation.m */; };
+		E7CFD2341CC7C10300F775DB /* AFImageRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = E7CFD2001CC7C10300F775DB /* AFImageRequestOperation.m */; };
+		E7CFD2351CC7C10300F775DB /* UIImageView+AFNetworking_UIActivityIndicatorView.m in Sources */ = {isa = PBXBuildFile; fileRef = E7CFD2021CC7C10300F775DB /* UIImageView+AFNetworking_UIActivityIndicatorView.m */; };
+		E7CFD2361CC7C10300F775DB /* HPGrowingTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = E7CFD2051CC7C10300F775DB /* HPGrowingTextView.m */; };
+		E7CFD2371CC7C10300F775DB /* HPTextViewInternal.m in Sources */ = {isa = PBXBuildFile; fileRef = E7CFD2071CC7C10300F775DB /* HPTextViewInternal.m */; };
+		E7CFD2381CC7C10300F775DB /* IQNSArray+Sort.m in Sources */ = {isa = PBXBuildFile; fileRef = E7CFD20B1CC7C10300F775DB /* IQNSArray+Sort.m */; };
+		E7CFD2391CC7C10300F775DB /* IQUIScrollView+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = E7CFD20D1CC7C10300F775DB /* IQUIScrollView+Additions.m */; };
+		E7CFD23A1CC7C10300F775DB /* IQUITextFieldView+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = E7CFD20F1CC7C10300F775DB /* IQUITextFieldView+Additions.m */; };
+		E7CFD23B1CC7C10300F775DB /* IQUIView+Hierarchy.m in Sources */ = {isa = PBXBuildFile; fileRef = E7CFD2111CC7C10300F775DB /* IQUIView+Hierarchy.m */; };
+		E7CFD23C1CC7C10300F775DB /* IQUIViewController+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = E7CFD2131CC7C10300F775DB /* IQUIViewController+Additions.m */; };
+		E7CFD23D1CC7C10300F775DB /* IQUIWindow+Hierarchy.m in Sources */ = {isa = PBXBuildFile; fileRef = E7CFD2151CC7C10300F775DB /* IQUIWindow+Hierarchy.m */; };
+		E7CFD23E1CC7C10300F775DB /* IQKeyboardManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E7CFD21A1CC7C10300F775DB /* IQKeyboardManager.m */; };
+		E7CFD23F1CC7C10300F775DB /* IQKeyboardReturnKeyHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = E7CFD21C1CC7C10300F775DB /* IQKeyboardReturnKeyHandler.m */; };
+		E7CFD2401CC7C10300F775DB /* IQTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = E7CFD21F1CC7C10300F775DB /* IQTextView.m */; };
+		E7CFD2411CC7C10300F775DB /* IQBarButtonItem.m in Sources */ = {isa = PBXBuildFile; fileRef = E7CFD2221CC7C10300F775DB /* IQBarButtonItem.m */; };
+		E7CFD2421CC7C10300F775DB /* IQTitleBarButtonItem.m in Sources */ = {isa = PBXBuildFile; fileRef = E7CFD2241CC7C10300F775DB /* IQTitleBarButtonItem.m */; };
+		E7CFD2431CC7C10300F775DB /* IQToolbar.m in Sources */ = {isa = PBXBuildFile; fileRef = E7CFD2261CC7C10300F775DB /* IQToolbar.m */; };
+		E7CFD2441CC7C10300F775DB /* IQUIView+IQKeyboardToolbar.m in Sources */ = {isa = PBXBuildFile; fileRef = E7CFD2281CC7C10300F775DB /* IQUIView+IQKeyboardToolbar.m */; };
+		E7CFD2451CC7C10300F775DB /* IQKeyboardManager.bundle in Resources */ = {isa = PBXBuildFile; fileRef = E7CFD22B1CC7C10300F775DB /* IQKeyboardManager.bundle */; };
+		E7CFD2461CC7C10300F775DB /* LocalizeHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = E7CFD22E1CC7C10300F775DB /* LocalizeHelper.m */; };
+		E7CFD24C1CC7C25200F775DB /* APICall.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7CFD2491CC7C25200F775DB /* APICall.swift */; };
+		E7CFD24D1CC7C25200F775DB /* Global.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7CFD24A1CC7C25200F775DB /* Global.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2C9C2F50A6F7E479A7219925 /* Pods-Booking_system.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Booking_system.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Booking_system/Pods-Booking_system.debug.xcconfig"; sourceTree = "<group>"; };
+		76AA6162D43E83DE272B92CD /* libPods-Booking_system.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Booking_system.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B720EA2CF72BB211B729CA18 /* Pods-Booking_system.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Booking_system.release.xcconfig"; path = "Pods/Target Support Files/Pods-Booking_system/Pods-Booking_system.release.xcconfig"; sourceTree = "<group>"; };
+		E79CF0321CC8972B00945A11 /* LoginVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
+		E79CF0331CC8972B00945A11 /* LoginVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoginVC.xib; sourceTree = "<group>"; };
+		E79CF0361CC8973A00945A11 /* ProfileVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileVC.swift; sourceTree = "<group>"; };
+		E79CF0371CC8973A00945A11 /* ProfileVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ProfileVC.xib; sourceTree = "<group>"; };
+		E79CF03A1CC89A8200945A11 /* Booking_system-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Booking_system-Bridging-Header.h"; sourceTree = "<group>"; };
+		E79CF03B1CC8AF6D00945A11 /* StaticClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StaticClass.swift; sourceTree = "<group>"; };
+		E7CFD18A1CC7BB3300F775DB /* Booking_system.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Booking_system.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E7CFD1921CC7BB3300F775DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E7CFD1941CC7BB3300F775DB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E7CFD1971CC7BB3300F775DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E7CFD1991CC7BB3300F775DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E7CFD1A11CC7BBF300F775DB /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E7CFD1A31CC7BBF300F775DB /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E7CFD1A91CC7BD0700F775DB /* HomeVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
+		E7CFD1AA1CC7BD0700F775DB /* HomeVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeVC.xib; sourceTree = "<group>"; };
+		E7CFD1FD1CC7C10300F775DB /* AFDownloadRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFDownloadRequestOperation.h; sourceTree = "<group>"; };
+		E7CFD1FE1CC7C10300F775DB /* AFDownloadRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFDownloadRequestOperation.m; sourceTree = "<group>"; };
+		E7CFD1FF1CC7C10300F775DB /* AFImageRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFImageRequestOperation.h; sourceTree = "<group>"; };
+		E7CFD2001CC7C10300F775DB /* AFImageRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFImageRequestOperation.m; sourceTree = "<group>"; };
+		E7CFD2011CC7C10300F775DB /* UIImageView+AFNetworking_UIActivityIndicatorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+AFNetworking_UIActivityIndicatorView.h"; sourceTree = "<group>"; };
+		E7CFD2021CC7C10300F775DB /* UIImageView+AFNetworking_UIActivityIndicatorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+AFNetworking_UIActivityIndicatorView.m"; sourceTree = "<group>"; };
+		E7CFD2041CC7C10300F775DB /* HPGrowingTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HPGrowingTextView.h; sourceTree = "<group>"; };
+		E7CFD2051CC7C10300F775DB /* HPGrowingTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HPGrowingTextView.m; sourceTree = "<group>"; };
+		E7CFD2061CC7C10300F775DB /* HPTextViewInternal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HPTextViewInternal.h; sourceTree = "<group>"; };
+		E7CFD2071CC7C10300F775DB /* HPTextViewInternal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HPTextViewInternal.m; sourceTree = "<group>"; };
+		E7CFD20A1CC7C10300F775DB /* IQNSArray+Sort.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "IQNSArray+Sort.h"; sourceTree = "<group>"; };
+		E7CFD20B1CC7C10300F775DB /* IQNSArray+Sort.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "IQNSArray+Sort.m"; sourceTree = "<group>"; };
+		E7CFD20C1CC7C10300F775DB /* IQUIScrollView+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "IQUIScrollView+Additions.h"; sourceTree = "<group>"; };
+		E7CFD20D1CC7C10300F775DB /* IQUIScrollView+Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "IQUIScrollView+Additions.m"; sourceTree = "<group>"; };
+		E7CFD20E1CC7C10300F775DB /* IQUITextFieldView+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "IQUITextFieldView+Additions.h"; sourceTree = "<group>"; };
+		E7CFD20F1CC7C10300F775DB /* IQUITextFieldView+Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "IQUITextFieldView+Additions.m"; sourceTree = "<group>"; };
+		E7CFD2101CC7C10300F775DB /* IQUIView+Hierarchy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "IQUIView+Hierarchy.h"; sourceTree = "<group>"; };
+		E7CFD2111CC7C10300F775DB /* IQUIView+Hierarchy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "IQUIView+Hierarchy.m"; sourceTree = "<group>"; };
+		E7CFD2121CC7C10300F775DB /* IQUIViewController+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "IQUIViewController+Additions.h"; sourceTree = "<group>"; };
+		E7CFD2131CC7C10300F775DB /* IQUIViewController+Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "IQUIViewController+Additions.m"; sourceTree = "<group>"; };
+		E7CFD2141CC7C10300F775DB /* IQUIWindow+Hierarchy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "IQUIWindow+Hierarchy.h"; sourceTree = "<group>"; };
+		E7CFD2151CC7C10300F775DB /* IQUIWindow+Hierarchy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "IQUIWindow+Hierarchy.m"; sourceTree = "<group>"; };
+		E7CFD2171CC7C10300F775DB /* IQKeyboardManagerConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IQKeyboardManagerConstants.h; sourceTree = "<group>"; };
+		E7CFD2181CC7C10300F775DB /* IQKeyboardManagerConstantsInternal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IQKeyboardManagerConstantsInternal.h; sourceTree = "<group>"; };
+		E7CFD2191CC7C10300F775DB /* IQKeyboardManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IQKeyboardManager.h; sourceTree = "<group>"; };
+		E7CFD21A1CC7C10300F775DB /* IQKeyboardManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IQKeyboardManager.m; sourceTree = "<group>"; };
+		E7CFD21B1CC7C10300F775DB /* IQKeyboardReturnKeyHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IQKeyboardReturnKeyHandler.h; sourceTree = "<group>"; };
+		E7CFD21C1CC7C10300F775DB /* IQKeyboardReturnKeyHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IQKeyboardReturnKeyHandler.m; sourceTree = "<group>"; };
+		E7CFD21E1CC7C10300F775DB /* IQTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IQTextView.h; sourceTree = "<group>"; };
+		E7CFD21F1CC7C10300F775DB /* IQTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IQTextView.m; sourceTree = "<group>"; };
+		E7CFD2211CC7C10300F775DB /* IQBarButtonItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IQBarButtonItem.h; sourceTree = "<group>"; };
+		E7CFD2221CC7C10300F775DB /* IQBarButtonItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IQBarButtonItem.m; sourceTree = "<group>"; };
+		E7CFD2231CC7C10300F775DB /* IQTitleBarButtonItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IQTitleBarButtonItem.h; sourceTree = "<group>"; };
+		E7CFD2241CC7C10300F775DB /* IQTitleBarButtonItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IQTitleBarButtonItem.m; sourceTree = "<group>"; };
+		E7CFD2251CC7C10300F775DB /* IQToolbar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IQToolbar.h; sourceTree = "<group>"; };
+		E7CFD2261CC7C10300F775DB /* IQToolbar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IQToolbar.m; sourceTree = "<group>"; };
+		E7CFD2271CC7C10300F775DB /* IQUIView+IQKeyboardToolbar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "IQUIView+IQKeyboardToolbar.h"; sourceTree = "<group>"; };
+		E7CFD2281CC7C10300F775DB /* IQUIView+IQKeyboardToolbar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "IQUIView+IQKeyboardToolbar.m"; sourceTree = "<group>"; };
+		E7CFD2291CC7C10300F775DB /* KeyboardManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeyboardManager.h; sourceTree = "<group>"; };
+		E7CFD22B1CC7C10300F775DB /* IQKeyboardManager.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = IQKeyboardManager.bundle; sourceTree = "<group>"; };
+		E7CFD22D1CC7C10300F775DB /* LocalizeHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocalizeHelper.h; sourceTree = "<group>"; };
+		E7CFD22E1CC7C10300F775DB /* LocalizeHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocalizeHelper.m; sourceTree = "<group>"; };
+		E7CFD2491CC7C25200F775DB /* APICall.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APICall.swift; sourceTree = "<group>"; };
+		E7CFD24A1CC7C25200F775DB /* Global.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Global.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E7CFD1871CC7BB3300F775DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53933F16CE24B59203381BC7 /* libPods-Booking_system.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		309FC2C37B4103E893C976D4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				76AA6162D43E83DE272B92CD /* libPods-Booking_system.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		62A4C51A318D41694C6AB3C4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2C9C2F50A6F7E479A7219925 /* Pods-Booking_system.debug.xcconfig */,
+				B720EA2CF72BB211B729CA18 /* Pods-Booking_system.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E79CF0301CC8970D00945A11 /* LoginVC */ = {
+			isa = PBXGroup;
+			children = (
+				E79CF0321CC8972B00945A11 /* LoginVC.swift */,
+				E79CF0331CC8972B00945A11 /* LoginVC.xib */,
+			);
+			path = LoginVC;
+			sourceTree = "<group>";
+		};
+		E79CF0311CC8970D00945A11 /* ProfileVC */ = {
+			isa = PBXGroup;
+			children = (
+				E79CF0361CC8973A00945A11 /* ProfileVC.swift */,
+				E79CF0371CC8973A00945A11 /* ProfileVC.xib */,
+			);
+			path = ProfileVC;
+			sourceTree = "<group>";
+		};
+		E7CFD1811CC7BB3300F775DB = {
+			isa = PBXGroup;
+			children = (
+				E7CFD18C1CC7BB3300F775DB /* Booking_system */,
+				E7CFD18B1CC7BB3300F775DB /* Products */,
+				62A4C51A318D41694C6AB3C4 /* Pods */,
+				309FC2C37B4103E893C976D4 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		E7CFD18B1CC7BB3300F775DB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E7CFD18A1CC7BB3300F775DB /* Booking_system.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E7CFD18C1CC7BB3300F775DB /* Booking_system */ = {
+			isa = PBXGroup;
+			children = (
+				E7CFD2471CC7C11400F775DB /* Resouces */,
+				E7CFD1FB1CC7C10300F775DB /* Entities */,
+				E7CFD19F1CC7BBF300F775DB /* Classes */,
+				E7CFD1941CC7BB3300F775DB /* Assets.xcassets */,
+				E79CF03A1CC89A8200945A11 /* Booking_system-Bridging-Header.h */,
+				E7CFD1911CC7BB3300F775DB /* Main.storyboard */,
+				E7CFD1961CC7BB3300F775DB /* LaunchScreen.storyboard */,
+				E7CFD1991CC7BB3300F775DB /* Info.plist */,
+			);
+			path = Booking_system;
+			sourceTree = "<group>";
+		};
+		E7CFD19F1CC7BBF300F775DB /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				E7CFD1A01CC7BBF300F775DB /* AppDelegate */,
+				E79CF0301CC8970D00945A11 /* LoginVC */,
+				E7CFD1A21CC7BBF300F775DB /* MainVC */,
+				E79CF0311CC8970D00945A11 /* ProfileVC */,
+				E7CFD1A31CC7BBF300F775DB /* ViewController.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		E7CFD1A01CC7BBF300F775DB /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				E7CFD1A11CC7BBF300F775DB /* AppDelegate.swift */,
+			);
+			name = AppDelegate;
+			path = appDelegate;
+			sourceTree = "<group>";
+		};
+		E7CFD1A21CC7BBF300F775DB /* MainVC */ = {
+			isa = PBXGroup;
+			children = (
+				E7CFD1A91CC7BD0700F775DB /* HomeVC.swift */,
+				E7CFD1AA1CC7BD0700F775DB /* HomeVC.xib */,
+			);
+			path = MainVC;
+			sourceTree = "<group>";
+		};
+		E7CFD1FB1CC7C10300F775DB /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				E79CF03B1CC8AF6D00945A11 /* StaticClass.swift */,
+				E7CFD2491CC7C25200F775DB /* APICall.swift */,
+				E7CFD24A1CC7C25200F775DB /* Global.swift */,
+				E7CFD1FC1CC7C10300F775DB /* AFNetworking */,
+				E7CFD2031CC7C10300F775DB /* HPGrowingTextView */,
+				E7CFD2081CC7C10300F775DB /* IQKeyBoardManager */,
+				E7CFD22C1CC7C10300F775DB /* Localization */,
+			);
+			path = Entities;
+			sourceTree = "<group>";
+		};
+		E7CFD1FC1CC7C10300F775DB /* AFNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				E7CFD1FD1CC7C10300F775DB /* AFDownloadRequestOperation.h */,
+				E7CFD1FE1CC7C10300F775DB /* AFDownloadRequestOperation.m */,
+				E7CFD1FF1CC7C10300F775DB /* AFImageRequestOperation.h */,
+				E7CFD2001CC7C10300F775DB /* AFImageRequestOperation.m */,
+				E7CFD2011CC7C10300F775DB /* UIImageView+AFNetworking_UIActivityIndicatorView.h */,
+				E7CFD2021CC7C10300F775DB /* UIImageView+AFNetworking_UIActivityIndicatorView.m */,
+			);
+			path = AFNetworking;
+			sourceTree = "<group>";
+		};
+		E7CFD2031CC7C10300F775DB /* HPGrowingTextView */ = {
+			isa = PBXGroup;
+			children = (
+				E7CFD2041CC7C10300F775DB /* HPGrowingTextView.h */,
+				E7CFD2051CC7C10300F775DB /* HPGrowingTextView.m */,
+				E7CFD2061CC7C10300F775DB /* HPTextViewInternal.h */,
+				E7CFD2071CC7C10300F775DB /* HPTextViewInternal.m */,
+			);
+			path = HPGrowingTextView;
+			sourceTree = "<group>";
+		};
+		E7CFD2081CC7C10300F775DB /* IQKeyBoardManager */ = {
+			isa = PBXGroup;
+			children = (
+				E7CFD2091CC7C10300F775DB /* Categories */,
+				E7CFD2161CC7C10300F775DB /* Constants */,
+				E7CFD2191CC7C10300F775DB /* IQKeyboardManager.h */,
+				E7CFD21A1CC7C10300F775DB /* IQKeyboardManager.m */,
+				E7CFD21B1CC7C10300F775DB /* IQKeyboardReturnKeyHandler.h */,
+				E7CFD21C1CC7C10300F775DB /* IQKeyboardReturnKeyHandler.m */,
+				E7CFD21D1CC7C10300F775DB /* IQTextView */,
+				E7CFD2201CC7C10300F775DB /* IQToolbar */,
+				E7CFD2291CC7C10300F775DB /* KeyboardManager.h */,
+				E7CFD22A1CC7C10300F775DB /* Resources */,
+			);
+			path = IQKeyBoardManager;
+			sourceTree = "<group>";
+		};
+		E7CFD2091CC7C10300F775DB /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				E7CFD20A1CC7C10300F775DB /* IQNSArray+Sort.h */,
+				E7CFD20B1CC7C10300F775DB /* IQNSArray+Sort.m */,
+				E7CFD20C1CC7C10300F775DB /* IQUIScrollView+Additions.h */,
+				E7CFD20D1CC7C10300F775DB /* IQUIScrollView+Additions.m */,
+				E7CFD20E1CC7C10300F775DB /* IQUITextFieldView+Additions.h */,
+				E7CFD20F1CC7C10300F775DB /* IQUITextFieldView+Additions.m */,
+				E7CFD2101CC7C10300F775DB /* IQUIView+Hierarchy.h */,
+				E7CFD2111CC7C10300F775DB /* IQUIView+Hierarchy.m */,
+				E7CFD2121CC7C10300F775DB /* IQUIViewController+Additions.h */,
+				E7CFD2131CC7C10300F775DB /* IQUIViewController+Additions.m */,
+				E7CFD2141CC7C10300F775DB /* IQUIWindow+Hierarchy.h */,
+				E7CFD2151CC7C10300F775DB /* IQUIWindow+Hierarchy.m */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		E7CFD2161CC7C10300F775DB /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				E7CFD2171CC7C10300F775DB /* IQKeyboardManagerConstants.h */,
+				E7CFD2181CC7C10300F775DB /* IQKeyboardManagerConstantsInternal.h */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		E7CFD21D1CC7C10300F775DB /* IQTextView */ = {
+			isa = PBXGroup;
+			children = (
+				E7CFD21E1CC7C10300F775DB /* IQTextView.h */,
+				E7CFD21F1CC7C10300F775DB /* IQTextView.m */,
+			);
+			path = IQTextView;
+			sourceTree = "<group>";
+		};
+		E7CFD2201CC7C10300F775DB /* IQToolbar */ = {
+			isa = PBXGroup;
+			children = (
+				E7CFD2211CC7C10300F775DB /* IQBarButtonItem.h */,
+				E7CFD2221CC7C10300F775DB /* IQBarButtonItem.m */,
+				E7CFD2231CC7C10300F775DB /* IQTitleBarButtonItem.h */,
+				E7CFD2241CC7C10300F775DB /* IQTitleBarButtonItem.m */,
+				E7CFD2251CC7C10300F775DB /* IQToolbar.h */,
+				E7CFD2261CC7C10300F775DB /* IQToolbar.m */,
+				E7CFD2271CC7C10300F775DB /* IQUIView+IQKeyboardToolbar.h */,
+				E7CFD2281CC7C10300F775DB /* IQUIView+IQKeyboardToolbar.m */,
+			);
+			path = IQToolbar;
+			sourceTree = "<group>";
+		};
+		E7CFD22A1CC7C10300F775DB /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				E7CFD22B1CC7C10300F775DB /* IQKeyboardManager.bundle */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		E7CFD22C1CC7C10300F775DB /* Localization */ = {
+			isa = PBXGroup;
+			children = (
+				E7CFD22D1CC7C10300F775DB /* LocalizeHelper.h */,
+				E7CFD22E1CC7C10300F775DB /* LocalizeHelper.m */,
+			);
+			path = Localization;
+			sourceTree = "<group>";
+		};
+		E7CFD2471CC7C11400F775DB /* Resouces */ = {
+			isa = PBXGroup;
+			children = (
+				E7CFD2481CC7C11400F775DB /* Fonts */,
+			);
+			path = Resouces;
+			sourceTree = "<group>";
+		};
+		E7CFD2481CC7C11400F775DB /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E7CFD1891CC7BB3300F775DB /* Booking_system */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E7CFD19C1CC7BB3300F775DB /* Build configuration list for PBXNativeTarget "Booking_system" */;
+			buildPhases = (
+				0E1DD73E676817D0331DCBEA /* Check Pods Manifest.lock */,
+				E7CFD1861CC7BB3300F775DB /* Sources */,
+				E7CFD1871CC7BB3300F775DB /* Frameworks */,
+				E7CFD1881CC7BB3300F775DB /* Resources */,
+				18317C646333F6196DB8F4E9 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Booking_system;
+			productName = Booking_system;
+			productReference = E7CFD18A1CC7BB3300F775DB /* Booking_system.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E7CFD1821CC7BB3300F775DB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = Tops;
+				TargetAttributes = {
+					E7CFD1891CC7BB3300F775DB = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+				};
+			};
+			buildConfigurationList = E7CFD1851CC7BB3300F775DB /* Build configuration list for PBXProject "Booking_system" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E7CFD1811CC7BB3300F775DB;
+			productRefGroup = E7CFD18B1CC7BB3300F775DB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E7CFD1891CC7BB3300F775DB /* Booking_system */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E7CFD1881CC7BB3300F775DB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E79CF0351CC8972B00945A11 /* LoginVC.xib in Resources */,
+				E7CFD1981CC7BB3300F775DB /* LaunchScreen.storyboard in Resources */,
+				E7CFD1AC1CC7BD0700F775DB /* HomeVC.xib in Resources */,
+				E7CFD2451CC7C10300F775DB /* IQKeyboardManager.bundle in Resources */,
+				E79CF0391CC8973A00945A11 /* ProfileVC.xib in Resources */,
+				E7CFD1951CC7BB3300F775DB /* Assets.xcassets in Resources */,
+				E7CFD1931CC7BB3300F775DB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0E1DD73E676817D0331DCBEA /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		18317C646333F6196DB8F4E9 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Booking_system/Pods-Booking_system-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E7CFD1861CC7BB3300F775DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E7CFD23E1CC7C10300F775DB /* IQKeyboardManager.m in Sources */,
+				E7CFD2381CC7C10300F775DB /* IQNSArray+Sort.m in Sources */,
+				E79CF03C1CC8AF6D00945A11 /* StaticClass.swift in Sources */,
+				E7CFD2461CC7C10300F775DB /* LocalizeHelper.m in Sources */,
+				E7CFD2341CC7C10300F775DB /* AFImageRequestOperation.m in Sources */,
+				E7CFD2361CC7C10300F775DB /* HPGrowingTextView.m in Sources */,
+				E7CFD23B1CC7C10300F775DB /* IQUIView+Hierarchy.m in Sources */,
+				E7CFD23A1CC7C10300F775DB /* IQUITextFieldView+Additions.m in Sources */,
+				E7CFD2411CC7C10300F775DB /* IQBarButtonItem.m in Sources */,
+				E7CFD24D1CC7C25200F775DB /* Global.swift in Sources */,
+				E7CFD2421CC7C10300F775DB /* IQTitleBarButtonItem.m in Sources */,
+				E7CFD23D1CC7C10300F775DB /* IQUIWindow+Hierarchy.m in Sources */,
+				E7CFD2331CC7C10300F775DB /* AFDownloadRequestOperation.m in Sources */,
+				E7CFD2391CC7C10300F775DB /* IQUIScrollView+Additions.m in Sources */,
+				E7CFD23C1CC7C10300F775DB /* IQUIViewController+Additions.m in Sources */,
+				E7CFD2401CC7C10300F775DB /* IQTextView.m in Sources */,
+				E7CFD2371CC7C10300F775DB /* HPTextViewInternal.m in Sources */,
+				E7CFD1AB1CC7BD0700F775DB /* HomeVC.swift in Sources */,
+				E7CFD1A81CC7BBF300F775DB /* ViewController.swift in Sources */,
+				E7CFD2441CC7C10300F775DB /* IQUIView+IQKeyboardToolbar.m in Sources */,
+				E7CFD1A71CC7BBF300F775DB /* AppDelegate.swift in Sources */,
+				E79CF0381CC8973A00945A11 /* ProfileVC.swift in Sources */,
+				E7CFD2351CC7C10300F775DB /* UIImageView+AFNetworking_UIActivityIndicatorView.m in Sources */,
+				E79CF0341CC8972B00945A11 /* LoginVC.swift in Sources */,
+				E7CFD23F1CC7C10300F775DB /* IQKeyboardReturnKeyHandler.m in Sources */,
+				E7CFD24C1CC7C25200F775DB /* APICall.swift in Sources */,
+				E7CFD2431CC7C10300F775DB /* IQToolbar.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E7CFD1911CC7BB3300F775DB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E7CFD1921CC7BB3300F775DB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E7CFD1961CC7BB3300F775DB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E7CFD1971CC7BB3300F775DB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E7CFD19A1CC7BB3300F775DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E7CFD19B1CC7BB3300F775DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E7CFD19D1CC7BB3300F775DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2C9C2F50A6F7E479A7219925 /* Pods-Booking_system.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Booking_system/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.topsprofile..Booking-system";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Booking_system/Booking_system-Bridging-Header.h";
+			};
+			name = Debug;
+		};
+		E7CFD19E1CC7BB3300F775DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B720EA2CF72BB211B729CA18 /* Pods-Booking_system.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Booking_system/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.topsprofile..Booking-system";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Booking_system/Booking_system-Bridging-Header.h";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E7CFD1851CC7BB3300F775DB /* Build configuration list for PBXProject "Booking_system" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E7CFD19A1CC7BB3300F775DB /* Debug */,
+				E7CFD19B1CC7BB3300F775DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E7CFD19C1CC7BB3300F775DB /* Build configuration list for PBXNativeTarget "Booking_system" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E7CFD19D1CC7BB3300F775DB /* Debug */,
+				E7CFD19E1CC7BB3300F775DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E7CFD1821CC7BB3300F775DB /* Project object */;
+}
